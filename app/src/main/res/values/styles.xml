@@ -6,16 +6,15 @@
         <item name="colorPrimary">@color/lime</item>
         <item name="colorPrimaryDark">@color/orange</item>
         <item name="colorAccent">@color/magenta</item>
+        
+        <item name="android:windowBackground">@color/pink</item>
+        <item name="buttonStyle">@style/BeatBoxButton</item>
     </style>
 
     <!-- a style for our sound buttons -->
     <style name="BeatBoxButton" parent="Widget.AppCompat.Button">
-        <item name="android:background">@color/blue</item>
+        <item name="android:background">@drawable/button_beat_box</item>
     </style>
-
-    <!-- a BOLD style for our sound Buttons -->
-    <style name="BeatBoxButton.Strong">
-        <item name="android:textStyle">bold</item>
-    </style>
+    
 
 </resources>
