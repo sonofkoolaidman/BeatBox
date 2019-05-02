@@ -1,11 +1,21 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/lime</item>
+        <item name="colorPrimaryDark">@color/orange</item>
+        <item name="colorAccent">@color/magenta</item>
+    </style>
+
+    <!-- a style for our sound buttons -->
+    <style name="BeatBoxButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@color/blue</item>
+    </style>
+
+    <!-- a BOLD style for our sound Buttons -->
+    <style name="BeatBoxButton.Strong">
+        <item name="android:textStyle">bold</item>
     </style>
 
 </resources>
